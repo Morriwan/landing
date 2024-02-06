@@ -1,0 +1,7 @@
+.banner {
+  background-image: url(../../images/cthulhu.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -450px;
+  padding: 200px 0;
+}

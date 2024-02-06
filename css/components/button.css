@@ -1,0 +1,21 @@
+.btn-primary {
+ border-radius: 50%;
+ background-color: #14213d;
+ color: white;
+ padding: 20px 10px;
+ margin: 0 auto;
+ opacity: 0.8;
+ animation: skew-x-shake 1.3s infinite;
+}
+.btn-primary:hover {
+  opacity: 1;
+}
+
+@keyframes skew-x-shake{
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }
+}
